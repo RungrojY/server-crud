@@ -18,11 +18,11 @@ const mysql = require('mysql2');
 const PORT = process.env.PORT || 5000
 
 const connection = mysql.createConnection({
-  host: 'bcigocqmvixvipxf2tzd-mysql.services.clever-cloud.com',
+  host: 'b6n2zx14aaudf3c7p0gw-mysql.services.clever-cloud.com',
   port: '3306',
-  user: 'uiegzb0nnozq3vlg',
-  password: 'WCGWIN9lIzwPz4shyUfD',
-  database: 'bcigocqmvixvipxf2tzd'
+  user: 'ulux01gcfg8gyjnv',
+  password: 'i88RNeERyyOSj7LEps83',
+  database: 'b6n2zx14aaudf3c7p0gw'
 });
 
 var app = express()
