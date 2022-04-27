@@ -15,14 +15,14 @@ git push clever master
 var express = require('express')
 var cors = require('cors')
 const mysql = require('mysql2');
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 8080
 
 const connection = mysql.createConnection({
-  host: 'b6n2zx14aaudf3c7p0gw-mysql.services.clever-cloud.com',
+  host: 'bxqe3614rbzbkznvhfw4-mysql.services.clever-cloud.com',
   port: '3306',
-  user: 'ulux01gcfg8gyjnv',
-  password: 'i88RNeERyyOSj7LEps83',
-  database: 'b6n2zx14aaudf3c7p0gw'
+  user: 'up1qmuznxkkzmryv',
+  password: '7LinUVp99Razv5aONCo5',
+  database: 'bxqe3614rbzbkznvhfw4'
 });
 
 var app = express()
